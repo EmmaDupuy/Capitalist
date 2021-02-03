@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class CapitalistProjectApplication {
+    //test
 
 	public static void main(String[] args) {
 		SpringApplication.run(CapitalistProjectApplication.class, args);
