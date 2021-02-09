@@ -203,7 +203,7 @@ and open the template in the editor.
             <name>Vêtements pallier 1</name>
             <logo></logo>
             <seuil>25</seuil>
-            <idcible>1</idcible>
+            <idcible>3</idcible>
             <ratio>2</ratio>
             <typeratio>vitesse</typeratio>
             <unlocked>False</unlocked>
@@ -212,7 +212,7 @@ and open the template in the editor.
             <name>Vêtements pallier 2</name>
             <logo></logo>
             <seuil>50</seuil>
-            <idcible>1</idcible>
+            <idcible>3</idcible>
             <ratio>2</ratio>
             <typeratio>gain</typeratio>
             <unlocked>False</unlocked>
@@ -221,7 +221,7 @@ and open the template in the editor.
             <name>Vêtements pallier 3</name>
             <logo></logo>
             <seuil>100</seuil>
-            <idcible>1</idcible>
+            <idcible>3</idcible>
             <ratio>1</ratio>
             <typeratio>ange</typeratio>
             <unlocked>False</unlocked>
@@ -241,7 +241,7 @@ and open the template in the editor.
             <name>Chaussures upgrade 1</name>
             <logo></logo>
             <seuil>250000</seuil>
-            <idcible>1</idcible>
+            <idcible>2</idcible>
             <ratio>2</ratio>
             <typeratio>vitesse</typeratio>
             <unlocked>False</unlocked>
@@ -250,7 +250,70 @@ and open the template in the editor.
             <name>Vêtements upgrade 1</name>
             <logo></logo>
             <seuil>250000</seuil>
+            <idcible>3</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Arbrisseau upgrade 2</name>
+            <logo></logo>
+            <seuil>500000</seuil>
             <idcible>1</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Chaussures upgrade 2</name>
+            <logo></logo>
+            <seuil>500000</seuil>
+            <idcible>2</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Vêtements upgrade 2</name>
+            <logo></logo>
+            <seuil>500000</seuil>
+            <idcible>3</idcible>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Arbrisseau upgrade 3</name>
+            <logo></logo>
+            <seuil>1000000</seuil>
+            <idcible>1</idcible>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Chaussures upgrade 3</name>
+            <logo></logo>
+            <seuil>1000000</seuil>
+            <idcible>2</idcible>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Vêtements upgrade 3</name>
+            <logo></logo>
+            <seuil>1000000</seuil>
+            <idcible>3</idcible>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>All upgrade</name>
+            <logo></logo>
+            <seuil>1500000</seuil>
+            <idcible>0</idcible>
             <ratio>2</ratio>
             <typeratio>vitesse</typeratio>
             <unlocked>False</unlocked>
