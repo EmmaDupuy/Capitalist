@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<world
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='worldSchema.xsd'>
+    <name>New Horizons</name>
+    <logo></logo>
+    <money>0</money>
+    <score>0</score>
+    <totalangels>0</totalangels>
+    <activeangels>0</activeangels>
+    <angelbonus>0</angelbonus>
+    <lastupdate>0</lastupdate>
+    <products>
+        <product>
+            <id>1</id>
+            <name>Arbrisseau</name>
+            <logo></logo>
+            <cout>4</cout>
+            <croissance>0.07</croissance>
+            <revenu>1</revenu>
+            <vitesse>2</vitesse>
+            <quantite>1</quantite>
+            <timeleft>1</timeleft>
+            <managerUnlocked>False</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Arbrisseau pallier 1</name>
+                    <logo></logo>
+                    <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Arbrisseau pallier 2</name>
+                    <logo></logo>
+                    <seuil>50</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Arbrisseau pallier 3</name>
+                    <logo></logo>
+                    <seuil>100</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1</ratio>
+                    <typeratio>ange</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>2</id>
+            <name>Chaussures</name>
+            <logo></logo>
+            <cout>4</cout>
+            <croissance>0.7</croissance>
+            <revenu>1</revenu>
+            <vitesse>2</vitesse>
+            <quantite>1</quantite>
+            <timeleft>1</timeleft>
+            <managerUnlocked>False</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Chaussures pallier 1</name>
+                    <logo></logo>
+                    <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Chaussures pallier 2</name>
+                    <logo></logo>
+                    <seuil>50</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Chaussures pallier 3</name>
+                    <logo></logo>
+                    <seuil>100</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1</ratio>
+                    <typeratio>ange</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>3</id>
+            <name>Vêtements</name>
+            <logo></logo>
+            <cout>4</cout>
+            <croissance>0.7</croissance>
+            <revenu>1</revenu>
+            <vitesse>2</vitesse>
+            <quantite>1</quantite>
+            <timeleft>1</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Vêtements pallier 1</name>
+                    <logo></logo>
+                    <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Vêtements pallier 2</name>
+                    <logo></logo>
+                    <seuil>50</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Vêtements pallier 3</name>
+                    <logo></logo>
+                    <seuil>100</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1</ratio>
+                    <typeratio>ange</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+    </products>
+    <allunlocks>
+        <pallier>
+            <name>Chaussures pallier 1</name>
+            <logo></logo>
+            <seuil>25</seuil>
+            <idcible>1</idcible>
+            <ratio>2</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Chaussures pallier 2</name>
+            <logo></logo>
+            <seuil>50</seuil>
+            <idcible>1</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Chaussures pallier 3</name>
+            <logo></logo>
+            <seuil>100</seuil>
+            <idcible>1</idcible>
+            <ratio>1</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+
+        <pallier>
+            <name>Arbrisseau pallier 1</name>
+            <logo></logo>
+            <seuil>25</seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Arbrisseau pallier 2</name>
+            <logo></logo>
+            <seuil>50</seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Arbrisseau pallier 3</name>
+            <logo></logo>
+            <seuil>100</seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked></unlocked>
+        </pallier>
+        
+        <pallier>
+            <name>Vêtements pallier 1</name>
+            <logo></logo>
+            <seuil>25</seuil>
+            <idcible>3</idcible>
+            <ratio>2</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Vêtements pallier 2</name>
+            <logo></logo>
+            <seuil>50</seuil>
+            <idcible>3</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Vêtements pallier 3</name>
+            <logo></logo>
+            <seuil>100</seuil>
+            <idcible>3</idcible>
+            <ratio>1</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+    </allunlocks>
+    <upgrades>
+        <pallier>
+            <name>Arbrisseau upgrade 1</name>
+            <logo></logo>
+            <seuil>250000</seuil>
+            <idcible>1</idcible>
+            <ratio>2</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Chaussures upgrade 1</name>
+            <logo></logo>
+            <seuil>250000</seuil>
+            <idcible>2</idcible>
+            <ratio>2</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Vêtements upgrade 1</name>
+            <logo></logo>
+            <seuil>250000</seuil>
+            <idcible>3</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Arbrisseau upgrade 2</name>
+            <logo></logo>
+            <seuil>500000</seuil>
+            <idcible>1</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Chaussures upgrade 2</name>
+            <logo></logo>
+            <seuil>500000</seuil>
+            <idcible>2</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Vêtements upgrade 2</name>
+            <logo></logo>
+            <seuil>500000</seuil>
+            <idcible>3</idcible>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Arbrisseau upgrade 3</name>
+            <logo></logo>
+            <seuil>1000000</seuil>
+            <idcible>1</idcible>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Chaussures upgrade 3</name>
+            <logo></logo>
+            <seuil>1000000</seuil>
+            <idcible>2</idcible>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Vêtements upgrade 3</name>
+            <logo></logo>
+            <seuil>1000000</seuil>
+            <idcible>3</idcible>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>All upgrade</name>
+            <logo></logo>
+            <seuil>1500000</seuil>
+            <idcible>0</idcible>
+            <ratio>2</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+    </upgrades>
+    <angelupgrades>
+        <pallier>
+            <name>MeliMelo sacrifice</name>
+            <logo></logo>
+            <seuil>10000</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>MeliMelo mutinerie</name>
+            <logo></logo>
+            <seuil>100000</seuil>
+            <idcible>0</idcible>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>MeliMelo rebellion</name>
+            <logo></logo>
+            <seuil>100000000</seuil>
+            <idcible>0</idcible>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+    </angelupgrades>
+    <managers>
+        <pallier>
+            <name>Racine</name>
+            <logo></logo>
+            <seuil>1000</seuil>
+            <idcible>1</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Blaise</name>
+            <logo></logo>
+            <seuil>15000</seuil>
+            <idcible>2</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Les Soeurs Doigts de Fée</name>
+            <logo></logo>
+            <seuil>100000</seuil>
+            <idcible>3</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+    </managers>
+
+</world>
