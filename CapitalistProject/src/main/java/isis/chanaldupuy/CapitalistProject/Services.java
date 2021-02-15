@@ -7,6 +7,7 @@ package isis.chanaldupuy.CapitalistProject;
 
 import generated.World;
 import java.io.File;
+import java.io.InputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.bind.JAXBContext;
@@ -19,17 +20,23 @@ import javax.xml.bind.Unmarshaller;
  */
 public class Services {
 
+    World world = new World();
+
     World readWorldFromXml() {
+        
+        /* if auteur connecté ou pas*/
+
         try {
+            InputStream input
+                    = getClass().getClassLoader().getResourceAsStream("world.xml");
             JAXBContext cont = JAXBContext.newInstance(World.class);
             Unmarshaller u = cont.createUnmarshaller();
-            World world = (World) u.unmarshal(new File("world.xml"));
-            for (WorldType film : world.getFilm()) {
-                System.out.println(film.getNom());
-            }
+            World world = (World) u.unmarshal(input);
+
         } catch (JAXBException ex) {
             Logger.getLogger(Services.class.getName()).log(Level.SEVERE, null, ex);
         }
+        return world;
     }
 
     void saveWorldToXml(World world) {
@@ -38,5 +45,7 @@ public class Services {
 
     World getWorld() {
 
+        return readWorldFromXml();
+        
     }
 }
