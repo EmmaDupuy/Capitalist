@@ -7,7 +7,10 @@ package isis.chanaldupuy.CapitalistProject;
 
 import generated.World;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.bind.JAXBContext;
@@ -40,7 +43,11 @@ public class Services {
     }
 
     void saveWorldToXml(World world) {
-
+        try {
+            OutputStream output = new FileOutputStream(new File("world.xml"));
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(Services.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     World getWorld() {
