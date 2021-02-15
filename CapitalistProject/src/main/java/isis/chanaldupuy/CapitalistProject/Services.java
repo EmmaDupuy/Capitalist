@@ -26,9 +26,8 @@ public class Services {
     World world = new World();
 
     World readWorldFromXml() {
-        
-        /* if auteur connecté ou pas*/
 
+        /* if auteur connecté ou pas*/
         try {
             InputStream input
                     = getClass().getClassLoader().getResourceAsStream("world.xml");
@@ -43,16 +42,18 @@ public class Services {
     }
 
     void saveWorldToXml(World world) {
+
         try {
             OutputStream output = new FileOutputStream(new File("world.xml"));
         } catch (FileNotFoundException ex) {
             Logger.getLogger(Services.class.getName()).log(Level.SEVERE, null, ex);
         }
+
     }
 
     World getWorld() {
 
         return readWorldFromXml();
-        
+
     }
 }
